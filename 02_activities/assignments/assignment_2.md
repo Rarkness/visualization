@@ -17,19 +17,38 @@
 
 
 
+The follow is an example of a good Visualization:
+https://public.tableau.com/app/profile/mateusz.karmalski/viz/CountrieswiththeMostHolidaysin2024makeovermonday/Dashboard12
 
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
+The reason is is good:
+This Tableau viz on countries with the most holidays in 2024 is good for a few reasons. First, it’s super clear and easy to read, so you can instantly see which countries get the most time off. The design is clean with a good color scheme, making it visually engaging without being cluttered. It’s interactive, so you can explore details instead of just looking at static numbers. It also does a great job of ranking and comparing countries, making the differences stand out.
+
+The holiday graph could be improved by the following:
+Adding more context like why certain countries have more holidays would make it more useful. The design could use more color gradient to help highlight the differences more effectively. Filtering by region or continent could make comparisons better. A historical comparison for holidays over the years could also be included. 
 
 
 
 
 
 
-      
-      ```
+
+The follow is an example of a bad Visualization:
+https://public.tableau.com/app/profile/lisa.trescott/viz/HowCommonIsYourBirthday_17222664505560/Birthday
+
+The reason it is bad:
+This viz looks nice, but it’s not great for actually understanding the data. The circular design is unique, but it makes comparing dates harder than a simple bar chart would. The pink shades are too similar, so it’s tough to see clear differences in rankings. There's also a lot of wasted space half the layout is decorative, while the actual data is crammed into a small section. Interacting with it isn’t super intuitive either, since the yellow marker is subtle and doesn’t stand out. Overall, it’s more about aesthetics than function, and a traditional layout with better contrast and clearer labels would make it way easier to read.
+
+The birthday graph could be improved by the following:
+All the reasons stated above.
+
+
+
+
+
+
+
+
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
