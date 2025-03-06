@@ -5,25 +5,99 @@
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
-- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice. 
+
+
+
+
+
 - For each visualization, describe and justify: 
+
+
+
     > What software did you use to create your data visualization?
 
-    > Who is your intended audience? 
+    Python
+
+    > Who is your intended audience?
+
+    Beer Drinker and/or customers
     
-    > What information or message are you trying to convey with your visualization? 
+    > What information or message are you trying to convey with your visualization?
+
+    The types of beer made by manufacturer or Microbrewer, the name of the beer company and the number of brands they carry
+
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
     
+    The line chart applies substantive accuracy with clear axis labels and correct data scaling, perceptual clarity using distinct colors (blue for names, orange for brands) and markers (circles, squares) for differentiation, and aesthetic appeal with a well-sized figure, balanced spacing, and a labeled legend for readability and engagement.
+    
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+
+    I ensured reproducibility by using a structured approach: consistent data processing with groupby(), standardized visualization code in Matplotlib, fixed figure size and colors for uniformity, and reusable scripts that work across datasets without modification. 
+
     > How did you ensure that your data visualization is accessible?  
+
+    I ensured accessibility by using distinct colors (blue and orange) with high contrast, clear labels and legends for easy interpretation, differentiated markers (circles for names, squares for brands) to assist colorblind users, and a well-sized figure to enhance readability. 
     
-    > Who are the individuals and communities who might be impacted by your visualization?  
-    
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    > Who are the individuals and communities who might be impacted by your visualization?
+
+    This visualization could impact brewery owners, beer distributors, craft beer fans, and market analysts. Breweries and distributors might use it to spot trends and competition, while analysts can track how diverse different beer types are. 
+
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+
+    I picked the Type, Name, and Brand columns because they really show how different beer categories compare. I left out other details, like specific beer characteristics or locations, to keep the chart simple and easy to read. The goal was to highlight the most useful info without cluttering things up.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    There was a lot of behind-the-scenes work to make the final chart look simple and clear. I had to clean up the data, count and group everything properly, pick the right chart, and tweak the colors and labels so it actually made sense. Plus, there was some trial and error to fix formatting issues and make sure everything looked good.
+
+
+
+
+
+
+
+    > What software did you use to create your data visualization?
+    
+    Excel
+
+    > Who is your intended audience? 
+    
+    Beer Drinker and/or customers
+    
+    > What information or message are you trying to convey with your visualization? 
+
+    The types of beer made by manufacturer or Microbrewer, the name of the beer company and the number of brands they carry
+    
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+    The bar chart ensures accuracy and clarity by correctly displaying the Number of Names and Brands per beer type with clear labels. Distinct colors, logical sorting, and a labeled legend enhance readability, making comparisons easy. Balanced spacing, readable fonts, and contrasting colors improve visibility, ensuring the chart is both functional and visually engaging. 
+
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    I kept the data processing consistent, using clear grouping for counts, fixed color mapping for consistency, and standardized chart settings for easy replication. Anyone with the same dataset and code can recreate the visualization without issues.
+
+    > How did you ensure that your data visualization is accessible?  
+
+    I used high-contrast colors for differentiation, clear labels and legends for easy understanding, and ensured that the chart is readable with proper spacing. The bar format also makes it easy to interpret at a glance, even for those with visual impairments.
+
+    > Who are the individuals and communities who might be impacted by your visualization?  
+
+    This chart could be useful for brewery owners, beer distributors, market analysts, and craft beer enthusiasts. It helps businesses understand brand diversity, while analysts can track industry trends.
+    
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    I focused on Beer Type, Number of Names, and Number of Brands because they provide the most meaningful insights into brand diversity. Any extra details that weren’t necessary for this specific comparison were left out to keep the chart clean and easy to read.
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+
+    Lots of cleaning of the data, picking the right chart, adjusting labels, and fine-tuning colors to make it clear and readable
+
+
+
+
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
